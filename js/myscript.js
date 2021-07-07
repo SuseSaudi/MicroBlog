@@ -40,8 +40,8 @@ xmlhttp.onreadystatechange = function () {
             "<div>" +
             socials + 
             "</div>" +
-                "<h4>" +
-                postcontent + "</h4>" +
+                "<h3>" +
+                postcontent + "</h3>" +
 
                 "</section>";
         }
