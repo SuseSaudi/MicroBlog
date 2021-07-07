@@ -19,6 +19,17 @@ body {
   box-sizing: inherit;
 }
 
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size:15px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    text-align: left;
+    vertical-align: middle;
+}
 button {
     display: inline-block;
     font-family: "Nunito", sans-serif;
@@ -91,10 +102,6 @@ section:last-child {
     line-height: 3.6rem;
   }
 
-  p {
-    font-size: 1.7rem;
-    line-height: 2.5rem;
-  }
 
   .site-wrap {
     padding: 6rem 1rem;
