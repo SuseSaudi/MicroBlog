@@ -31,7 +31,7 @@ xmlhttp.onreadystatechange = function () {
                 }
                 else {
 
-                    "<h2>" + name + "</h2>";
+                   socials = "<h2>" + name + "</h2>";
                 }
             }
             document.getElementById("mainDiv").innerHTML +=
